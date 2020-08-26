@@ -143,18 +143,18 @@ html[xmlns] .slides {
   opacity: 0;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
-  background: url(../images/Shapeleft.png) center center no-repeat;
+  background: url(Shapeleft.png) center center no-repeat;
   text-indent: -999em
 }
 
 .flex-direction-nav .flex-prev {
   left: 20px;
-  background: url(../images/Shapeleft.png) center center  no-repeat;
+  background: url(Shapeleft.png) center center  no-repeat;
 }
 
 .flex-direction-nav .flex-next {
   right:  20px;
-  background: url(../images/Shaperight.png)  center center  no-repeat;
+  background: url(Shaperight.png)  center center  no-repeat;
 }
 
 .flexslider:hover .flex-prev {
@@ -290,11 +290,12 @@ right: 20px;
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
-    left: 10px;
+    left: 20px;
   }
 
   .flex-direction-nav .flex-next {
     opacity: 1;
-    right: 10px;
+    right: 20px;
   }
+  
 }

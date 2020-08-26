@@ -5,30 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Document</title>
-  <link href="css/css.css" rel="stylesheet">
-  <link href="css/flexslider.css" rel="stylesheet">
+  <link href="images/css.css" rel="stylesheet">
+  <link href="images/flexslider.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="main">
     <div class="baseWidth">
-      <div class="header secondheader">
+      <div class="header">
         <div class="headright">
           <div class="headtips">
             <a href="#">Log in</a><span>|</span>
             <a href="#">Sign up</a><span>|</span>
             <a href="#">中文</a>
+            <i></i>
           </div>
-          <div class="search">
+          <div class="search" id="searchbox">
+            <span class="search_close"><img src="images/z19_close.png"></span>
+          
             <form>
-              <input type="text" value="Search" class="inputSearch">
-              <input type="button" class="botSimit">
+              <div class="search_box">
+              <input type="text" value="Type to search" class="inputSearch">
+              <input type="button" class="botSimit" id="Searchbtn">
+            </div>
             </form>
           </div>
         </div>
         <div class="headleft">
           <div class="logo">
             <img src="images/logo.png">
+          </div>
+          <div class="navblock">
+            
           </div>
         </div>
       </div>
@@ -85,40 +93,27 @@
         </div>
         <div class="aboutleft">
           <div class="aboutmenu">
-            ABOUT
+            Resources
           </div>
           <div class="aboutnav">
             <ul>
-              <li><a href="#"><img src="images/case-hunger.png"> <span>SDG2: Zero Hunger</span></a></li>
-              <li class="menutwoline"><a href="#"><img src="images/case-clear.png"> <span>SDG6: Clean Water and
-                    Sanitation</span></a></li>
-              <li class="menutwoline"><a href="#"><img src="images/case-cityes.png"><span>SDG11: Sustainable Cities and
-                    Communities</span> </a></li>
-              <li><a href="#"><img src="images/case-climate.png"> <span>SDG13: Climate Action</span> </a></li>
-              <li><a href="#"><img src="images/case-life.png"><span>SDG14: Life below Water</span> </a></li>
-              <li><a href="#"><img src="images/case-land.png"><span>SDG15: Life on Land</span></a></li>
-
-
-
+              <li><a href="#"><span> Report</span></a></li>
+              <li><a href="#" > <span>Publication</span></a></li>
+              <li><a href="#" class="cur"><span> Video</span></a></li>
             </ul>
           </div>
         </div>
-        <div class="aboutmain">
+        <div class=" resourcesmain">
           <div class="detailnav">
-            Lead scientists
+            Publication
           </div>
-          <div class="aboutdetail">
+          <div class="aboutdetail videobox">
             <div class="aboutbody">
-              <div class="aboutimg">
-                <img src="images/leader.png">
-              </div>
-
-              <div class="aboutconent">
-                <div class="detailtips">
-                  <h2>GUO Huadong</h2>
-                </div>
+ 
+              <div class="aboutconent ">
+                  <div class="bigtitle"> Big Earth Data in Support of the Sustainable Development Goals</div>
                 <div class="conent">
-                  <p> GUO Huadong is a Professor of the Chinese Academy of Sciences (CAS) Aerospace Information Research
+                  <p>GUO Huadong is a Professor of the Chinese Academy of Sciences (CAS) Aerospace Information Research
                     Institute, an Academician of CAS, a Foreign Member of Russian Academy of Sciences, a Foreign Member
                     of
                     the Finnish Society of Sciences and Letters, and a Fellow of The World Academy of Sciences (TWAS).
@@ -143,8 +138,14 @@
                     Natural Science Foundation of China. He has published more than 500 papers and 19 books, and is the
                     awardee of 17 domestic and international prizes.
                   </p>
+                  <video id="video1" width="100%">
+                    <source src="base.mp4" type="video/mp4">
+                  
+                    您的浏览器不支持 HTML5 video 标签。
+                  </video>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -174,9 +175,9 @@
   </div>
 
 </body>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/js.js"></script>
-<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="images/jquery.min.js"></script>
+<script type="text/javascript" src="images/js.js"></script>
+<script type="text/javascript" src="images/jquery.flexslider-min.js"></script>
 
 </html>
 
